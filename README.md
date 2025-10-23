@@ -4,6 +4,8 @@ A curated list of project presentations and reports. Most code repositories are 
 
 If you'd like access to the underlying repositories or more details, please get in touch with me.
 
+[Portfolio Website](https://ld-portfolio.netlify.app)
+
 ## Projects (older → newer)
 
 1. Global Undernourishment Analysis — [powerbi dashboard](https://edubuas-my.sharepoint.com/:u:/g/personal/232345_buas_nl/EVbajQ8Bd1hNj2qxhr3lOTYB00UbDmeupsFZ9e5iS8FNyw?e=bRZUDp)
