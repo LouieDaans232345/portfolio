@@ -639,51 +639,99 @@ button {
 
     /* Modal container: add a bit of padding so the card doesn't touch edges */
     .js .modal {
-        padding: 10px;
+        padding: 8px;
     }
 
     /* Modal panel: narrower, shorter, and scrollable inside on small screens */
     .modal__panel {
-        width: min(480px, 92vw);
-        max-height: 80vh;
+        width: min(380px, 88vw);
+        max-height: 78vh;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior: contain;
-        padding: 16px 14px 14px;
-        border-radius: 10px;
+        padding: 12px 12px 12px;
+        border-radius: 9px;
     }
 
     .modal__title {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 1.2;
     }
 
     .modal__section {
-        font-size: 11px;
-        margin: 10px 0 6px;
+        font-size: 10px;
+        margin: 8px 0 4px;
     }
 
     .modal__description,
     .modal__why,
     .modal__skills {
-        margin: 0 0 12px;
+        margin: 0 0 10px;
+        font-size: 14px;
+        line-height: 1.45;
     }
 
     .modal__link {
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 6px 10px;
+        font-size: 13px;
         border-radius: 6px;
     }
 
     .modal__close {
         top: 4px;
         right: 6px;
-        font-size: 18px;
-        padding: 4px 6px;
+        font-size: 16px;
+        padding: 3px 5px;
     }
 
     .skill-tag {
-        padding: 4px 6px;
-        font-size: 12px;
+        padding: 3px 5px;
+        font-size: 11px;
         margin: 0 4px 6px 0;
+    }
+}
+
+/* Extra-small phones: tighten further */
+@media (max-width: 360px) {
+    .js .modal {
+        padding: 6px;
+    }
+
+    .modal__panel {
+        width: min(340px, 86vw);
+        max-height: 76vh;
+        padding: 10px 10px 10px;
+        border-radius: 8px;
+    }
+
+    .modal__title {
+        font-size: 15px;
+    }
+
+    .modal__section {
+        font-size: 10px;
+        margin: 6px 0 4px;
+    }
+
+    .modal__description,
+    .modal__why,
+    .modal__skills {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .modal__link {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .modal__close {
+        font-size: 15px;
+        padding: 3px 5px;
+    }
+
+    .skill-tag {
+        padding: 3px 5px;
+        font-size: 10.5px;
     }
 }
