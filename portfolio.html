@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Louie D.</title>
+
+    <meta name="description" content="Projects by Louie D." />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body class="prefade portfolio">
+    <!-- Top navigation: back arrow (top-left) + contact link (top-right) -->
+    <header class="topbar" role="banner">
+        <nav class="topbar__nav" aria-label="Primary">
+            <a class="topbar__back home__go home__go--corner" href="index.html" aria-label="Back to home">&lt;</a>
+            <a class="topbar__contact contact--corner" id="contact-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main" class="main" tabindex="-1">
+        <!-- Scatter board: drawings are placed programmatically with blue-noise spacing -->
+        <section class="board scatter-board" aria-label="Projects">
+            <h2 class="sr-only">Projects</h2>
+            <div class="doodles scatter" id="doodles">
+                <!-- Doodles are injected from assets/data/projects.json by scripts/main.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Project modal: populated from clicked drawing's data-* attributes -->
+    <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title"
+        aria-describedby="modal-description">
+        <div class="modal__overlay" data-close="true"></div>
+        <div class="modal__panel" role="document">
+            <button class="modal__close" aria-label="Close dialog" data-close="true">×</button>
+            <h3 id="modal-title" class="modal__title">Project title</h3>
+
+            <h4 id="modal-description-label" class="modal__section">Description</h4>
+            <p id="modal-description" class="modal__description">Project description</p>
+
+            <h4 id="modal-why-label" class="modal__section">Motivation</h4>
+            <p id="modal-why" class="modal__why"></p>
+
+            <h4 id="modal-skills-label" class="modal__section">Trained skills</h4>
+            <p id="modal-skills" class="modal__skills"></p>
+            <a id="modal-link" class="modal__link" href="#" target="_blank" rel="noopener">Open project</a>
+        </div>
+    </div>
+
+    <!-- Contact modal: opened from "Contact" in the top-right corner -->
+    <div id="contact-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="contact-title"
+        aria-describedby="contact-description">
+        <div class="modal__overlay" data-close="true"></div>
+        <div class="modal__panel" role="document">
+            <button class="modal__close" aria-label="Close dialog" data-close="true">×</button>
+            <h3 id="contact-title" class="sr-only">Contact</h3>
+            <p id="contact-description" class="modal__description">Find me here:</p>
+            <ul class="contact-list">
+                <li><a href="mailto:louiedaans@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/louie-daans-a82250256/" target="_blank"
+                        rel="noopener">LinkedIn</a></li>
+                <!-- GitHub removed per request -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom-right credit -->
+    <div class="credit credit--corner" aria-label="Drawings credit">Drawn by my little sister</div>
+
+    <script defer src="scripts/main.js"></script>
+</body>
+
+</html>

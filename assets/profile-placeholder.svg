@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <circle cx="96" cy="96" r="88" stroke="#111" stroke-width="3" />
+  <circle cx="96" cy="80" r="28" stroke="#111" stroke-width="3" />
+  <path d="M40 154c14-22 38-30 56-30s42 8 56 30" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  <title>Portrait placeholder</title>
+</svg>

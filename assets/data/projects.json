@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Global Undernourishment Analysis",
+        "description": "Analysed global undernourishment and factors affecting the SDG 2.1.1 'Zero Hunger' goal.",
+        "why": "This was my first school project. It taught me the basics of data analysis and the importance of data quality.",
+        "link": "https://edubuas-my.sharepoint.com/:u:/g/personal/232345_buas_nl/EVbajQ8Bd1hNj2qxhr3lOTYB00UbDmeupsFZ9e5iS8FNyw?e=bRZUDp",
+        "image": "assets/projects_drawings/hunger.png",
+        "anim": "float",
+        "skills": "Python, EDA, Feature Engineering, Power BI, Excel, SQL"
+    },
+    {
+        "title": "NAC Data-driven Decisions",
+        "description": "Supported digitalisation of decision-making using player tracking and players market data.",
+        "why": "Modern football clubs are data-driven organisations, which can be greatly enhanced by analytics and predictive modeling.",
+        "link": "https://github.com/LouieDaans232345/portfolio/blob/main/nac_report.pdf",
+        "image": "assets/projects_drawings/football.png",
+        "anim": "wiggle",
+        "skills": "Python, EDA, Feature Engineering, Data visualisation, Data Modeling, Machine Learning, Predictive Analytics, Model Optimisation"
+    },
+    {
+        "title": "Clothing Image Classification",
+        "description": "Developed AI image classification to automatically tag second-hand clothing listings, improving search accuracy and seller efficiency.",
+        "why": "This was my first CV project, applying deep learning to real-world data.",
+        "link": "https://github.com/LouieDaans232345/portfolio/blob/main/clothes_presentation.pdf",
+        "image": "assets/projects_drawings/fashion.png",
+        "anim": "float",
+        "skills": "Data Collection, Data Cleaning, Annotation, Data augmentation, Computer Vision, Image Classification, Deep Learning, Transfer Learning, Model Evaluation, XAI, A/B testing"
+    },
+    {
+        "title": "Automated Plant Phenotyping",
+        "description": "Developed a fully functional pipeline using Image Segmentation to isolate plant roots. This system controls a liquid handling robot for automated, high-throughput inoculation, supporting NPEC's phenotyping research.",
+        "why": "This has been my favorite project to date, combining cutting-edge CV techniques with practical lab automation. Their is also a direct impact on advancing plant phenotyping research.",
+        "link": "https://github.com/LouieDaans232345/portfolio/blob/main/plant_presentation.pdf",
+        "image": "assets/projects_drawings/plant.png",
+        "anim": "pulse",
+        "skills": "Image Segmentation, Computer Vision, Deep Learning, Pytorch, Object Detection, MLOps, Experiment Tracking, ClearML, Cloud, Docker, CI/CD, Robotics"
+    },
+    {
+        "title": "Classifying Emotions in TV Shows",
+        "description": "Built an NLP-based Emotion Classification Pipeline to analyze video content for media clients. This AI provides key insights for targeted advertising and content recommendation.",
+        "why": "My first NLP project, understanding transformers and text data processing.",
+        "link": "https://github.com/LouieDaans232345/portfolio/blob/main/tv_presentation.pdf",
+        "image": "assets/projects_drawings/tv.png",
+        "anim": "pulse",
+        "skills": "NLP, Emotion Classification, Deep Learning, Transformers, Data Pipeline, ETL, Cloud, MLOps, AzureML, W&B, CI/CD, Translation, Transcription, TTS, Prompt Engineering"
+    },
+    {
+        "title": "Empowering Esport Coaching (in progress..)",
+        "description": "We are developing a functional application to empower esports coaching through Machine Learning, in-game data and telemetry data analysis, providing actionable in-game insights. My current research focuses on an AI-coach that autonomously detects, explains, and corrects player errors in a post-game analysis format.",
+        "why": "I already worked on a similar project but for Chess, which is less complex. Esport is a fast-growing industry with lots of data and potential for analytics to improve performance.",
+        "link": "https://github.com/LouieDaans232345/portfolio/blob/main/esport_proposition.pdf",
+        "image": "assets/projects_drawings/esport.png",
+        "anim": "wiggle",
+        "skills": "Python, JS, C++, OBS, Deep Learning, Time-Series Data, Computer Vision, NLP, Transformers, Data Pipelining, Telemetry Data, Performance Analysis, Eye tracking, Face tracking, Reaction time analysis, Software Development"
+    },
+    {
+        "title": "Public Sparring Session App (in progress..)",
+        "description": "I'm building a mobile app that allows users to create and join public sparring sessions nearby, fostering community engagement and skill development in martial arts.",
+        "why": "I've been sparring with strangers lately and realized how much easier it would be with an app to connect people.",
+        "link": "",
+        "image": "assets/projects_drawings/box.png",
+        "anim": "wiggle",
+        "skills": "Dart, JS, Flutter, Firebase, REST API, Mobile Development UI/UX, DB Management, Cloud, Authentication, Face recognition"
+    }
+]

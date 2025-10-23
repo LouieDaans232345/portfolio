@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Louie D.</title>
+
+    <meta name="description" content="A minimal, hand-drawn style portfolio by Louie D." />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- You can change --home-center-y below to move the center content up/down easily -->
+    <style>
+        /* Default: 15vh. Edit this value in index.html to tweak vertical placement. */
+        :root {
+            --home-center-y: 20vh;
+        }
+    </style>
+    <!-- Home section: background image + centered intro with arrow to portfolio -->
+    <main class="home" aria-label="Home">
+        <!-- Background image layer -->
+        <div class="home__bg" aria-hidden="true"></div>
+
+        <!-- Center content block (positioned via CSS custom property --home-center-y) -->
+        <div class="home__center">
+            <h1 class="home__title">Louie Daans</h1>
+            <p class="home__about">Hi, I'm Louie, a third-year Data Science &amp; AI student on a quest to solve the
+                world. My passion lies in leveraging intelligent systems to redefine what's possible.</p>
+            <p class="home__cta">
+                <span>Check out some of my projects</span>
+                <!-- The arrow animates between pages and lands in the top-left on portfolio -->
+                <a class="home__go" href="portfolio.html" aria-label="Go to portfolio" role="button">&gt;</a>
+            </p>
+        </div>
+    </main>
+
+    <script defer src="scripts/main.js"></script>
+</body>
+
+</html>

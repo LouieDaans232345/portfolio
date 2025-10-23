@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Book icon">
+  <title>Book</title>
+  <desc>Simple hand-drawn style book icon</desc>
+  <g stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M10 14c10-4 16-4 26 0v38c-10-4-16-4-26 0V14z"/>
+    <path d="M36 14c10-4 16-4 26 0v38c-10-4-16-4-26 0V14z"/>
+    <path d="M10 14c10-4 16-4 26 0M62 14c-10-4-16-4-26 0" opacity=".5"/>
+    <path d="M36 22c6-2 12-2 18 0" opacity=".6"/>
+    <path d="M10 22c6-2 12-2 18 0" opacity=".6"/>
+  </g>
+</svg>
